@@ -1,0 +1,508 @@
+<head></head>.container {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+:root {
+  --color1: #5a5440;
+  /* --color1: #181b18; */
+  /* --color1: #3f5a36; */
+  --color2: #f3f2de;
+  /* --color2: white; */
+  --color3: #d9d4bd;
+  /* --color3: #F7F7F7; */
+  --color4: #484333;
+  /* --color4: #385130; */
+  --color5: #484333;
+
+
+  --font1: 'Cormorant Garamond', serif;
+  --font2: 'Carme', sans-serif;
+  --font3: 'Cormorant Garamond', serif;
+
+
+
+  /* Add more color variables as needed */
+}
+
+.background-image,
+.front-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.headerBack {
+  background-color: var(--color1);
+  margin-bottom: 0;
+}
+
+.footerBack {
+  background-color: var(--color2);
+  margin-bottom: 0;
+}
+.footerBackSm {
+  background-color: var(--color1);
+  margin-bottom: 0;
+}
+
+.front-image {
+  z-index: 2;
+  /* background-image: url('./images/dog.jpg'); Replace with your front image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 100%;
+  /* position: fixed; */
+}
+
+.front-image2 {
+  z-index: 2;
+  /* background-image: url('./images/dog.jpg'); Replace with your front image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 20%;
+  /* position: fixed; */
+}
+
+.titleFontGreen {
+  /* font-size: xxx-large; */
+  font-size: 70px;
+
+  color: var(--color1);
+  font-family: var(--font2);
+}
+
+.titleFont {
+  /* font-size: xxx-large; */
+  font-size: 70px;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.titleFontResourceSm {
+  /* font-size: xxx-large; */
+  font-size: 50px;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.titleFontMemSm {
+  /* font-size: xxx-large; */
+  font-size: 60px;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.titleFontMemSmWhite {
+  /* font-size: xxx-large; */
+  font-size: 60px;
+  color: var(--color1);
+  font-family: var(--font2);
+}
+.titleFontHistory {
+  /* font-size: xxx-large; */
+  font-size: 60px;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+
+.titleFontWhite {
+  /* font-size: xxx-large; */
+  font-size: 4.5vw;
+  color: var(--color2);
+  font-family: var(--font2);
+  text-align: left;
+}
+.titleSm {
+  /* font-size: xxx-large; */
+  font-size: 12vw;
+  color: var(--color2);
+  font-family: var(--font2);
+  text-align: left;
+}
+
+.textFont {
+  font-size: xx-large;
+  color: var(--color2);
+  font-family: var(--font2);
+    text-align: center;
+}
+
+.textFontMember {
+  font-size: 20px;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.textFontHistory {
+  font-size: 1.5vw;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.textFontGreen {
+  font-size: 20px;
+  color: var(--color1);
+  font-family: var(--font2);
+}
+
+.textFontGreenBar {
+  font-size: 20px;
+  color: red;
+  font-family: var(--font2);
+}
+
+.textFontSm {
+  font-size: x-large;
+  color: var(--color2);
+  font-family: var(--font2);
+    text-align: center;
+
+}
+
+.textFontLeft {
+  font-size: xx-large;
+  color: var(--color1);
+  font-family: var(--font2);
+  text-align: center;
+}
+
+.textFontLeftSm {
+  font-size: x-large;
+  color: var(--color1);
+  font-family: var(--font2);
+    text-align: center;
+
+}
+
+.textTimeline {
+  font-size: small;
+  color: var(--color1);
+  font-family: var(--font2);
+}
+
+.textFontContact {
+  font-size: x-large;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+
+.textFontContact2 {
+  font-size: x-large;
+  color: var(--color1);
+  font-family: var(--font2);
+}
+
+.towerClip {
+  background-image: url('./images/civ.jpg');
+  background-size: cover;
+  background-position: center;
+
+  width: 100px;
+  height: auto;
+}
+
+.background-image {
+  z-index: 1;
+  /* background-image: url('./images/space.jpg');  */
+  background-size: cover;
+  background-position: center;
+}
+
+
+.background-image2 {
+  z-index: 1;
+  /* background-image: url('./images/Carillon-scaled.jpeg'); */
+  background-color: var(--color2);
+
+  background-size: contain;
+  background-position: center;
+  /* position: relative; */
+  margin: 0;
+  overflow: hidden;
+  opacity: 100%;
+  /* width: 100vw; */
+  padding: 0;
+
+}
+
+.infoLeft {
+  background-color: var(--color2);
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: ;
+  color: var(--color1);
+  /* border-radius: 10px; */
+}
+.infoLeftSm {
+  background-color: var(--color2);
+
+  margin-top: ;
+  margin-bottom: ;
+  padding: ;
+  color: var(--color1);
+  /* border-radius: 10px; */
+}
+.infoLeftHistory {
+  background-color: var(--color2);
+
+  margin-top: ;
+  margin-bottom: ;
+  padding: ;
+  color: var(--color1);
+  /* border-radius: 10px; */
+}
+
+.learnFont {
+  font-size: 4vw;
+  color: var(--color2);
+  font-family: var(--font1);
+}
+.learnFont2 {
+  font-size: 4vw;
+  color: var(--color2);
+  font-family: var(--font2);
+}
+.learnFont3 {
+  font-size: 2vw;
+  color: var(--color2);
+  font-family: var(--font1);
+}
+.learnFont4 {
+  font-size: 4vw;
+  color: var(--color2);
+  font-family: var(--font1);
+  font-style: italic;
+}
+.resourceFont {
+  font-size: 3.5vw;
+  color: var(--color2);
+  font-family: var(--font1);
+  font-style: italic;
+}
+.resourceFont:hover {
+  color: var(--color3);
+  
+}
+.resourceImg:hover{
+  opacity:90%;
+}
+
+.memeberPageText {
+  background-color: var(--color2);
+  color: var(--color1);
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  text-align: left;
+  /* border-radius: 10px; */
+}
+
+.memeberPageTextGreen {
+  background-color: var(--color1);
+  color: var(--color2);
+  padding: 10px;
+  text-align: right;
+
+  /* border-radius: 10px; */
+}
+
+.memeberHover:hover {
+  /* opacity: 90%; */
+  background-color: var(--color3);
+  ;
+}
+
+.memeberHover2:hover {
+  /* opacity: 90%; */
+  background-color: var(--color4);
+  ;
+}
+
+/* Your CSS file */
+.buttonRight {
+  background-color: var(--color1);
+  color: var(--color2);
+
+  /* Add any other styles you need */
+}
+
+.buttonLeft {
+  background-color: var(--color1);
+
+  color: var(--color2);
+}
+
+.infoRight {
+  background-color: var(--color1);
+  color: var(--color2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  /* border-radius: 10px; */
+}
+.infoRightSm {
+  background-color: var(--color1);
+  color: var(--color2);
+  margin-top:;
+  margin-bottom: ;
+  padding: 10px;
+  /* border-radius: 10px; */
+}
+.infoHistory {
+  background-color: var(--color1);
+  color: var(--color2);
+  margin-top: ;
+  margin-bottom: ;
+  padding: ;
+  /* border-radius: 10px; */
+}
+
+.fade-section {
+  opacity: 0.6;
+  /* transform: translateY(20px); */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-section.is-visible {
+  opacity: 1;
+  /* transform: translateY(0); */
+}
+
+.fade-section:not(.is-visible) {
+  opacity: 0.6;
+  /* transform: translateY(20px); */
+}
+
+
+.infoRight2 {
+  background-color: var(--color1);
+  color: var(--color2);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+  /* border-radius: 10px; */
+
+}
+
+/* Define the NavOne class */
+.NavOne {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: red; You can change the text color to your preference */
+  padding: 10px;
+  /* Adjust padding as needed */
+}
+
+.NavTwo {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+  background-color: ;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: red; You can change the text color to your preference */
+  padding: 10px;
+  /* Adjust padding as needed */
+}
+
+/* Additional styles for links in the navbar (optional) */
+.NavOne a {
+  color: var(--color2);
+  /* Set link color */
+  text-decoration: none;
+  /* Remove underline */
+  margin: 0 10px;
+  /* Add some spacing between links */
+}
+
+/* Style for hover effect on links (optional) */
+.NavOne a:hover {
+  color: grey;
+}
+
+.NavTwo a {
+  color: var(--color2);
+  /* Set link color */
+  text-decoration: none;
+  /* Remove underline */
+  margin: 0 10px;
+  /* Add some spacing between links */
+}
+
+/* Style for hover effect on links (optional) */
+.NavTwo a:hover {
+  color: lightgrey;
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0px;
+}
+
+.notScroll {
+  margin: auto;
+  /* background-image: url('./images/towerscale2.jpg'); */
+  background-color: var(--color2);
+  background-size: cover;
+  background-position: center;
+}
+
+.footerName {
+  color: var(--color1);
+  /* Set link color */
+  margin: 0 10px;
+  /* Add some spacing between links */
+  text-decoration: none !important;
+  /* Remove underline */
+}
+.footerNameSm {
+  color: var(--color2);
+  /* Set link color */
+  margin: 0 10px;
+  /* Add some spacing between links */
+  text-decoration: none !important;
+  /* Remove underline */
+}
+.footerLogo {
+  color: var(--color2);
+  /* Set link color */
+  margin: 0 10px;
+  font-size: xx-large;
+
+  /* Add some spacing between links */
+  text-decoration: none !important;
+  /* Remove underline */
+}
+
+.footerName:hover {
+  color: var(--color3);
+  /* Set link color on hover */
+}
+
+.footerNameBlank {
+  color: var(--color1);
+  /* Set link color */
+  margin: 0 10px;
+  /* Add some spacing between links */
+  text-decoration: none !important;
+  /* Remove underline */
+}
+
+.subscribeText {
+  color: var(--color1);
+
+}
+
+.centerButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* background-color: red; */
+}
